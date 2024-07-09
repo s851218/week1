@@ -148,6 +148,7 @@ img {
   height: auto;
   vertical-align: middle;
 }
+
 /* 字體大小 */
 .h1 {
   font-size: 8rem;
@@ -287,12 +288,9 @@ img {
   border-bottom: 3px solid #ae0000;
 }
 
+/* 設定 resume 部分佔 main 容器一半寬 */
 .max-w-half {
   max-width: 50%;
-}
-
-.max-width {
-  width: 636px;
 }
 
 .header-img {

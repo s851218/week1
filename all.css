@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap");
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 全域設定 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Castoro", serif;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+/* 字體大小 */
+.h1 {
+  font-size: 8rem;
+}
+
+.h2 {
+  font-size: 2.5rem;
+}
+
+.fs-1 {
+  font-size: 2rem;
+}
+
+.fs-2 {
+  font-size: 1.5rem;
+}
+
+.fs-3 {
+  font-size: 1.25rem;
+}
+
+/* 字體顏色 */
+.light-gray {
+  color: #efefef;
+}
+
+.gray {
+  color: #949494;
+}
+
+.red {
+  color: #ae0000;
+}
+
+.black {
+  color: #000;
+}
+
+/* 字體樣式 */
+.font-style-italic {
+  font-style: italic;
+}
+
+/* 字體間距 */
+.tracking-wide {
+  letter-spacing: 0.12em;
+}
+
+/* 文字對齊 */
+.text-end {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* 容器設定 */
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+/* 設定 display-block */
+.d-block {
+  display: block;
+}
+
+/* margin 設定 */
+.mx-auto {
+  margin: 0 auto;
+}
+
+.ms-auto {
+  margin-left: auto;
+}
+
+.mt-1 {
+  margin-top: 160px;
+}
+
+.mx-1 {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.mb-1 {
+  margin-bottom: 8px;
+}
+
+.mb-2 {
+  margin-bottom: 16px;
+}
+
+.mb-3 {
+  margin-bottom: 12px;
+}
+
+.mb-4 {
+  margin-bottom: 40px;
+}
+
+.mb-5 {
+  margin-bottom: 80px;
+}
+
+.mb-6 {
+  margin-bottom: 160px;
+}
+
+/* padding 設定 */
+.pt-1 {
+  padding-top: 160px;
+}
+
+.py-1 {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.py-2 {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+/* 背景顏色設定 */
+.bg-light-gray {
+  background: #efefef;
+}
+
+.bg-black {
+  background: #000;
+}
+
+/* 標題底線設定 */
+.border-bottom-1 {
+  border-bottom: 3px solid #ae0000;
+}
+
+.max-w-half {
+  max-width: 50%;
+}
+
+.max-width {
+  width: 636px;
+}
+
+.header-img {
+  width: 636px;
+  height: 848px;
+}

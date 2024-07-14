@@ -139,7 +139,6 @@ table {
 
 body {
   font-family: "Castoro", serif;
-  font-style: normal;
   line-height: 1.5;
 }
 
@@ -206,6 +205,16 @@ img {
   text-align: center;
 }
 
+/* 文字裝飾 */
+.text-decoration-none {
+  text-decoration: none;
+}
+
+/* 文字顏色 */
+.text-dark {
+  color: #000;
+}
+
 /* 容器設定 */
 .container {
   max-width: 1296px;
@@ -215,6 +224,16 @@ img {
 /* 設定 display-block */
 .d-block {
   display: block;
+}
+
+/* 設定 display-flex */
+.d-flex {
+  display: flex;
+}
+
+/* 將 footer 內容置中 */
+.justify-content-center {
+  justify-content: center;
 }
 
 /* margin 設定 */
